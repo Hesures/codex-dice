@@ -1,0 +1,35 @@
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* .img-dice1, .img-dice2 {
+    padding: 3%;
+} */
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: #A4907C;
+}
+
+.container-dice {
+    display: inline-block;
+    margin: 3%;
+}
+
+.dice-button {
+    background-color: #C8B6A6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 6.25rem;
+    margin-bottom: 3%;
+}
+
+.dice-button:hover {
+    background-color: #F1DEC9;
+}
