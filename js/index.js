@@ -2,6 +2,9 @@
 
 // ROLLING DICES BY CLICKING
 document.querySelector(".dice-button").addEventListener("click",function(){
+// ROLLING AUDIO
+let diceRoll = new Audio("sound/rolldice.mp3");
+diceRoll.play();
 // DICE 1
 let rollDice1 = Math.floor(Math.random()*6+1);
 let sourceDiceImg1 = "images/dice" + rollDice1 + ".png";

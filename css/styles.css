@@ -7,9 +7,10 @@ p {
     font-family: 'Libre Baskerville', serif;
 }
 
-/* .img-dice1, .img-dice2 {
+.img-dice1, .img-dice2 {
     padding: 3%;
-} */
+    border-radius: 10%;
+}
 
 .container {
     margin: 0 auto;
@@ -22,6 +23,7 @@ p {
     display: inline-block;
     margin: 3%;
 }
+
 
 .dice-button {
     background-color: #C8B6A6;
