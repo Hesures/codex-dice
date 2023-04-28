@@ -27,10 +27,15 @@ p {
     width: 100%;
     background-color: #A4907C;
 }
+
 .container-dice {
     display: inline-block;
     margin: 3%;
 }
+
+
+/***************************************/
+
 .dice-button .diceRollResult {
     background-color: #C8B6A6;
     font-family: 'Cinzel',serif;
@@ -57,8 +62,6 @@ p {
 }
 
 /*********************************** RESPONSIVE DESIGN *********************************/
-
-
 
 @media (max-width: 360px) {
     .qualities {
